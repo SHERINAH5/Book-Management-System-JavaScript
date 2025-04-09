@@ -1,0 +1,120 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.nav-tabs .nav-link {
+  color: #001f3f !important;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: white !important;
+  color: #0a95c6 !important;
+}
+
+.nav-tabs .nav-link:hover {
+  color: rgba(0, 55, 255, 0.505) !important;
+}
+
+.text-center {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(45deg, #6200ea, #9c27b0);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.search-input {
+  max-width: 500px;
+  margin: 20px auto;
+  display: block;
+}
+
+.book-container {
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* BOOK CARD STYLING */
+.card {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.btn-danger {
+  background-color: #e53935;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #ff9800;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #2196f3;
+  color: white;
+}
